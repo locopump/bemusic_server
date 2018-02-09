@@ -1,0 +1,210 @@
+:root {
+    --wp-colors-accent: #34AD00;
+    --wp-colors-bg-500: #1e1e26;
+    --wp-colors-bg-400: #2a2a35;
+    --wp-colors-bg-300: #353543;
+    --wp-colors-bg-200: #414151;
+    --wp-colors-bg-100: #7b7b96;
+    --wp-colors-text-300: #898B8C;
+    --wp-colors-text-200: #C2C2CA;
+    --wp-colors-text-100: #fff;
+    --wp-colors-border-200: rgba(255,255,255,0.05);
+    --wp-colors-border-100: rgba(255,255,255,0.1);
+}
+
+#web-player {
+    background-color: var(--wp-colors-bg-500);
+}
+
+#web-player nav-sidebar,
+#web-player player-controls,
+#web-player queue-sidebar,
+#web-player account-settings .panel,
+#web-player fullscreen-overlay.maximized,
+#web-player .track-list-header,
+#web-player .more-button,
+#web-player lyrics-modal .modal-content,
+#web-player .follow-button,
+#web-player .context-menu,
+#web-player artist .dark-button,
+#web-player artist .bio-text,
+#web-player artist .similar-artist,
+#web-player queue-sidebar .queue-item,
+#web-player .media-grid-item .footer,
+#web-player user-library .nav,
+#web-player filterable-page-header .filter-bar input,
+#web-player search .search-input-container input {
+    background-color: var(--wp-colors-bg-400);
+}
+
+#web-player::-webkit-scrollbar-thumb,
+lyrics-modal::-webkit-scrollbar-thumb,
+context-menu-playlist-panel::-webkit-scrollbar-thumb,
+#web-player .more-button:hover,
+#web-player track-list .popularity-track,
+#web-player playback-control-button,
+#web-player .follow-button:hover,
+#web-player .context-menu .menu-item:hover,
+#web-player artist .dark-button:hover,
+#web-player artist .similar-artist:hover,
+#web-player nav-sidebar .search-bar-container input,
+#web-player track-list .popularity-track {
+    background-color: var(--wp-colors-bg-300);
+}
+
+#web-player .media-grid-item playback-control-button {
+    background-color: transparent;
+}
+
+#web-player player-seekbar .inner-track,
+#web-player volume-controls .inner-track {
+    background-color: var(--wp-colors-bg-200);
+}
+
+#web-player volume-controls .progress-track {
+    background-color: var(--wp-colors-bg-100);
+}
+
+/**
+ TEXT COLORS
+ */
+#web-player radio-page .radio-type,
+#web-player user-profile-page .followers,
+#web-player search-slideout-panel .result-type,
+#web-player search-slideout-panel .secondary,
+#web-player track-list,
+#web-player .context-menu .panel-body .title,
+#web-player mobile-player-controls .artist-name,
+#web-player mobile-player-controls .nav,
+#web-player search .header .link,
+#web-player nav-sidebar .artist-name,
+#web-player .context-menu .secondary-name,
+#web-player .secondary-text,
+#web-player artist .release-date,
+#web-player account-settings .info,
+#web-player filterable-page-header .title,
+#web-player filterable-page-header svg-icon,
+#web-player queue-sidebar .artist-name,
+#web-player user-library .nav,
+#web-player library-playlists .tracks-count,
+#web-player library-playlists .options-button {
+    color: var(--wp-colors-text-300);
+}
+
+#web-player track-list .popularity-track-inner {
+    background-color: var(--wp-colors-text-300);
+}
+
+#web-player,
+lyrics-modal .modal-content,
+.context-menu,
+#web-player player-controls button:hover,
+#web-player player-controls .lyrics,
+#web-player player-controls .player-action,
+#web-player player-seekbar .elapsed-time,
+#web-player player-seekbar .track-length,
+#web-player player-seekbar .lyrics {
+    color: var(--wp-colors-text-200);
+}
+
+#web-player playback-control-button,
+#web-player .progress-handle,
+#web-player main-playback-buttons,
+#web-player fullscreen-overlay .previous,
+#web-player fullscreen-overlay .next,
+#web-player fullscreen-overlay .track-name,
+#web-player context-menu-playlist-panel .panel-header:hover,
+#web-player context-menu-playlist-panel .new-playlist:hover,
+#web-player context-menu-playlist-panel .playlist:hover,
+#web-player mobile-player-controls,
+#web-player mobile-player-controls .nav-item.active,
+#web-player .main-button button,
+#web-player user-profile-page .meta,
+#web-player .nav-links .active,
+#web-player artist .artist-name,
+#web-player popular-genres .name,
+#web-player player-controls,
+#web-player queue-sidebar .active {
+    color: var(--wp-colors-text-100);
+}
+
+#web-player main-playback-buttons .spinner {
+    border-color: var(--wp-colors-text-100);
+}
+
+#web-player playing-indicator .one,
+#web-player playing-indicator .two,
+#web-player playing-indicator .three {
+    background-color: var(--wp-colors-text-100);
+}
+
+/**
+ BORDER COLORS
+ */
+
+#web-player connect-social-accounts-panel .social-login-row,
+#web-player .track-list-row,
+#web-player context-menu-playlist-panel .panel-header,
+#web-player context-menu-playlist-panel .new-playlist,
+#web-player .nav,
+#web-player search .tab-nav,
+#web-player search .header,
+#web-player search .search-input-container input:active,
+#web-player search .search-input-container input:focus,
+#web-player .nav-links,
+#web-player user-profile-page .follower-row,
+#web-player account-settings .panel,
+#web-player .context-menu .header,
+#web-player artist .dark-button,
+#web-player artist .albums-section-header,
+#web-player queue-sidebar,
+#web-player filterable-page-header.margin {
+    border-color: var(--wp-colors-border-200);
+}
+
+#web-player nav-sidebar .separator {
+    background-color: var(--wp-colors-border-200);
+}
+
+#web-player .more-button,
+#web-player .follow-button,
+#web-player nav-sidebar .current-track,
+#web-player nav-sidebar .search-input-container input:active,
+#web-player nav-sidebar .search-input-container input:focus {
+    border-color: var(--wp-colors-border-100);
+}
+
+/**
+ ACCENT COLOR
+ */
+#web-player main-playback-buttons .spinner,
+#web-player .main-buttons .play-button,
+#web-player search .tab-nav-item.active,
+#web-player .primary,
+#web-player artist .nav-link.active,
+#web-player upload-file-modal .active,
+#web-player user-profile-page .nav-link.active,
+{
+    border-color: var(--wp-colors-accent);
+}
+
+#web-player .pretty-checkbox:checked + label:before,
+#web-player .play-button,
+#web-player user-profile-page .meta button,
+#web-player queue-sidebar .active,
+#web-player player-seekbar .progress-track
+{
+    background-color: var(--wp-colors-accent);
+}
+
+#web-player fullscreen-overlay .remove-button,
+#web-player track-list .playing,
+#web-player track-list .playing .track-name,
+#web-player upload-file-modal .active,
+#web-player nav-sidebar .check-icon,
+#web-player player-controls .player-action.active,
+#web-player repeat-button.active,
+#web-player artist .albums-section-header .active
+{
+    color: var(--wp-colors-accent);
+}
